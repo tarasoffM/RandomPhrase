@@ -35,3 +35,12 @@ const ends = [
     "in the depths of the ocean.",
     "at the break of dawn."
 ];
+
+const randomPhrase = () => {
+    const beginning = beginnings[Math.floor(Math.random() * beginnings.length)];
+    const middle = middles[Math.floor(Math.random() * middles.length)];
+    const end = ends[Math.floor(Math.random() * ends.length)];
+    return `${beginning} ${middle} ${end}`;
+}
+
+console.log(randomPhrase());
