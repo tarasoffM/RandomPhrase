@@ -1,1 +1,1 @@
-*Random Phrase Generator
+#Random Phrase Generator
